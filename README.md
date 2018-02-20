@@ -1,3 +1,17 @@
+Charming 
+ReactJS application that displays a gallery of handmade charms created by Gabrielle Bonny as of 2017
+Libraries used:
+import Gallery from 'react-photo-gallery';
+import Lightbox from 'react-images';
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
