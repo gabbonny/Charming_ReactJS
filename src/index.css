@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*margin-auto to center a div----size of app*/
+.application {
+  max-width: 1080px;
+  height: 1920px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #b21d10, #e77225);
+}
+
+/*style for title*/
+.title {
+    max-width: 1025px;
+    height: 291px;
+    margin: auto;
+}
+
+.banner {
+    max-width: 1025px;
+    height: 291px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*style for subtitle*/
+h3 {
+    border: 1px solid #5b85b2;
+    max-width: 777px;
+    height: 165px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: Baskerville Old Face;
+    font-size: 45px;
+    color: #5b85b2;
+    background-color: #f4ffad;
+}
+
+/* Style description div */
+
+/*
+
+padding: 25px 50px 75px 100px;
+
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+*/
+.description {
+    max-width: 1080px;
+    height: 200px;
+    background-color: #5b85b2;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Baskerville Old Face;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+/* Style the description text */
+.description p {
+    text-align: center;
+    color: white;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+    max-width: 1080px;
+    height: 111px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav {
+    /*float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;*/
+}
+
+
+.tab-links:after {
+display:block;
+clear:both;
+content:'';
+}
+.tab-links li {
+    padding: 3px;
+    float:left;
+    list-style-type: none;
+}
+
+.tab-links a {
+max-width: 198px;
+height: 189px;
+display:inline-block;
+transition:all linear 0.15s;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.tab-links .hamburger {
+    display: none;
+}
+
+.tab-links a:hover {
+
+}
+li.active a, li.active a:hover {
+
+}
+
+.gallery_style {
+    max_width: 1080px;
+    height: 1010px;
+    background-color: #333;
+    overflow: scroll;
+}
