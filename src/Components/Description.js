@@ -4,7 +4,7 @@ class Description extends Component {
 	render(){
 		return (
 			<div className="description">
-				<p>This block of text will change when a naviagtion button is pressed</p>
+				<p>Displayed are all the charms made from 2016-2017</p>
 			</div>
 		);
 	}
